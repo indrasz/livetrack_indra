@@ -2,8 +2,6 @@ part of 'login_bloc.dart';
 
 abstract class LoginEvent extends Equatable {}
 
-
-
 class LoginSubmitEvent extends LoginEvent {
   LoginSubmitEvent({
     required this.email,
